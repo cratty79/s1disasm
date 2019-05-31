@@ -197,6 +197,7 @@ locret_1307C:
 
 
 Sonic_MoveLeft:
+		jsr	Spik_Hurt
 		move.w	obInertia(a0),d0
 		beq.s	loc_13086
 		bpl.s	loc_130B2
